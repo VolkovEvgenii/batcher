@@ -1,8 +1,9 @@
-package ru.volkov.batch.util.db;
+package ru.volkov.batch.sotialuko.service;
 
 import org.hibernate.transform.Transformers;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import ru.volkov.batch.sotialuko.dto.StPrigorodRjdCard;
 
 import javax.persistence.*;
 import java.time.LocalDateTime;
